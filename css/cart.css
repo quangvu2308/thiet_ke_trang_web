@@ -1,0 +1,109 @@
+.cart {
+   display: flex;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   height: 525px;
+   margin-top: 72px;
+   margin-bottom: 63px;
+   font-family: Poppins;
+   justify-content: space-between;
+}
+
+.cart .left {
+   width: 70%;
+}
+
+.cart .left table {
+   border-collapse: collapse;
+   border: none;
+   width: 100%;
+}
+
+tr .header {
+}
+
+.cart .left th {
+   background: #f9f1e7;
+   height: 55px;
+}
+
+.content {
+}
+
+td {
+   height: 150px;
+}
+
+.tdsanpham {
+   display: flex;
+}
+
+.ten {
+   margin: auto auto auto 34px;
+}
+
+.gia {
+   color: #9f9f9f;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.tongtien {
+   color: #000;
+   font-family: Poppins;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.soluong {
+   width: 32px;
+   height: 32px;
+   font-size: 14pt;
+}
+
+td img {
+   width: 111px;
+   height: 90px;
+   object-fit: cover;
+   margin-top: 30px;
+}
+
+.cart .phai {
+   text-align: center;
+   background: #f9f1e7;
+   width: 393px;
+   height: 390px;
+}
+
+.cart .phai h1 {
+   color: #000;
+   font-family: Poppins;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+   margin-top: 20px;
+   margin-bottom: 56px;
+}
+
+.tong-cart {
+   margin: 0 75px 31px 75px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.thanhtoan {
+   width: 222px;
+   height: 58.954px;
+   flex-shrink: 0;
+   border-radius: 15px;
+   border: 1px solid #000;
+   padding-top: 16px;
+   margin: 60px auto 10px auto;
+}
